@@ -1,4 +1,5 @@
 /*
+https://leetcode.com/problems/peak-index-in-a-mountain-array/
 Leetcode problem - 852. Peak Index in a Mountain Array
 An array arr is a mountain if the following properties hold:
 
@@ -32,20 +33,16 @@ public class MaxInMountainArrayBS {
 
     public static int peakIndexInMountainArray(int[] arr) {
         int start = 0, end = arr.length - 1, maxIndex = 0;
-        while(start <= end) {
+        while(start < end) {
             int mid = start + (end - start) / 2;
             if(arr[mid] > arr[mid + 1]) {
-                end = mid-1;
-                if(arr[mid] > arr[maxIndex]) {
-                    maxIndex = mid;
-                }
+                end = mid;
+
             }else{
                 start = mid + 1;
-                if(arr[mid+1] > arr[maxIndex]) {
-                    maxIndex = mid+1;
-                }
             }
         }
-        return maxIndex;
+
+        return start;
     }
 }
