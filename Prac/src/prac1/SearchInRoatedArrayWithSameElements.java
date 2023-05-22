@@ -36,7 +36,7 @@ public class SearchInRoatedArrayWithSameElements {
                 }
                 start++;
                 end--;
-            }else if(nums[start] < nums[mid] || (nums[start] == nums[mid] && nums[mid] < nums[end])){
+            }else if(nums[start] < nums[mid] || (nums[start] == nums[mid] && nums[mid] > nums[end])){
                 start = mid+1;
             }else{
                 end = mid-1;
