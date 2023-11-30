@@ -3,7 +3,7 @@ package prac1;
 import java.util.Arrays;
 
 public class array2D {
-    public static void main(String[] args) {
+    public static void main(StringBuilder[] args) {
         int[][] arr = {
                 {1, 2, 3},
                 {4, 5},
