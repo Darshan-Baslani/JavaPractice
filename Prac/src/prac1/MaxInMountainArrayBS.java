@@ -21,13 +21,10 @@ Example 3:
 Input: arr = [0,10,5,2]
 Output: 1
  */
-package prac1;
-
-
 
 public class MaxInMountainArrayBS {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,5,6,4,3,2};
+        int[] arr = {1,2,3,5,6,100,9,8,7,6,5,4,3,2,1};
         System.out.print(peakIndexInMountainArray(arr));
     }
 

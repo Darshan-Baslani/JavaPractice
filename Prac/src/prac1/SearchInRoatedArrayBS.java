@@ -1,4 +1,3 @@
-package prac1;
 //leetcode - 33 - medium
 //https://leetcode.com/problems/search-in-rotated-sorted-array/description/
 public class SearchInRoatedArrayBS {

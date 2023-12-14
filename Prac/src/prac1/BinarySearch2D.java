@@ -1,5 +1,3 @@
-package prac1;
-
 public class BinarySearch2D {
     public static void main(String[] args) {
         int[][] data = {{10,20,30,40},
@@ -12,9 +10,6 @@ public class BinarySearch2D {
 
         for(int ele:ans){
             System.out.println(ele);
-        }
-
-    }
     static int[] BinarySearch2D(int[][] data, int target){
             int row = 0, col = data[0].length-1;
             while(row <= col) {

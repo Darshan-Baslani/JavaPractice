@@ -1,7 +1,5 @@
 //leetcode - 4 (hard)
 //https://leetcode.com/problems/median-of-two-sorted-arrays/description/
-package prac1;
-
 public class MedianOfTwoSortedArray {
     public static void main(String[] args) {
         int[] nums1 = {1,2};

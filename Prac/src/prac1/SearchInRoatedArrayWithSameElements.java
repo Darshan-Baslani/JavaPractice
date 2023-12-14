@@ -1,9 +1,7 @@
-package prac1;
-
 public class SearchInRoatedArrayWithSameElements {
     public static void main(String[] args) {
-        int[] nums = {6,7,8,8,9,1,1,2,4,4,5};
-        int target = 2;
+        int[] nums = {6,7,8,8,9,1,1,2,4,4,6};
+        int target = 6;
         System.out.println(search(nums,target));
     }
     public static int search(int[] nums, int target) {

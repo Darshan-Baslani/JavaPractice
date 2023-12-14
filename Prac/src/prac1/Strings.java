@@ -1,4 +1,4 @@
-package prac1;
+//package prac1;
 
 public class Strings {
 

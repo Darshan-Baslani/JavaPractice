@@ -1,9 +1,7 @@
-package prac1;
-
 import java.util.Scanner;
 
 public class BinarySearch {
-    public static void main(Strings[] args) {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int[] arr = {2,3,4,7,9,23,56,89,100};
         System.out.print("Enter target element: ");

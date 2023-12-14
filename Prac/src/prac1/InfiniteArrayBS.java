@@ -1,4 +1,3 @@
-package prac1;
 //This program is designed for infinite elements in the array, may not work properly in finite elements.
 public class InfiniteArrayBS {
     public static void main(String[] args) {
